@@ -1,0 +1,21 @@
+* {
+    font-family: 'Orbitron',
+        sans-serif;
+}
+
+
+h1 {
+    color: SeaGreen;
+}
+
+
+p,
+li {
+    font-size: 18px;
+}
+
+
+a {
+    color: rgba(71, 190, 71, 0.445);
+    text-decoration: none;
+}
