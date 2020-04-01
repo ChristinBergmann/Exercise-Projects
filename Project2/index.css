@@ -13,6 +13,7 @@ header h1 {
   color: khaki;
   text-align: center;
   background-image: url(./images/pattern1.jpeg);
+  margin: 70px 0px 70px 0px;
 }
 
 h2 {
@@ -29,4 +30,14 @@ h2 {
 }
 .paint {
   background-color: skyblue;
+}
+
+span p {
+  font-weight: bold;
+  color: blue;
+}
+
+figcaption {
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
 }
