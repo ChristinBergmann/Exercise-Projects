@@ -22,17 +22,17 @@ h2 {
   color: white;
 }
 
-.brushes {
+#brushes {
   background-color: mediumspringgreen;
 }
-.frames {
+#frames {
   background-color: lightcoral;
 }
-.paint {
+#paint {
   background-color: skyblue;
 }
 
-span {
+price {
   font-weight: bold;
   color: blue;
 }
