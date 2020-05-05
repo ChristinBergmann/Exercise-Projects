@@ -1,13 +1,15 @@
-/* Universal Styles */
-
-body {
-  margin: 0;
-  font-family: "Helvetica", sans-serif;
+body,
+html {
+  margin: 0px;
+  font-family: "Helvetica";
+  font-size: 22px;
   color: seashell;
   background-color: black;
-  font-size: 22px;
+  opacity: 0.9;
   text-align: center;
 }
+
+/* HEADER */
 
 a {
   color: seashell;
@@ -20,20 +22,10 @@ h4 {
   padding: 10px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* Header Section */
-
 header {
-  width: 100%;
   position: fixed;
-  z-index: 1;
+  width: 100%;
   height: 69px;
-  background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
 }
@@ -53,92 +45,85 @@ nav span {
   padding: 20px 10px;
 }
 
-/* Main Section */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* MAIN */
 
 .main {
-  padding-top: 69px;
-  opacity: 0.9;
   width: 1200px;
+  padding-top: 69px;
   margin: auto;
 }
 
-/* Mission Section */
+/* MISSION SEC */
 
 #mission {
   height: 700px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url("images/img-mission-background.jpg");
   padding-top: 70px;
 }
 
 #mission .content {
-  margin: auto;
   background-color: black;
+  margin: auto;
   width: 100%;
 }
 
-/* Store Section */
+/* STORE SEC */
 
 #store {
-  height: 700px;
   width: 1000px;
+  height: 700px;
   margin: auto;
   padding-top: 70px;
 }
-
+.items {
+  justify-content: center;
+}
 .item {
   padding: 5px;
 }
 
 .item img {
-  height: 200px;
+  display: block;
+  justify-content: center;
   margin: 10px;
-  display: block;
+  height: 200px;
 }
 
-.item span {
-  display: block;
-  padding: 5px;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Location Section */
-
-.flex-container.locations {
-  padding-top: 5px;
-}
+/* LOCATIONS SEC */
 
 #locations {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  background-image: url("images/img-locations-background.jpg");
+  margin: auto;
   padding-top: 70px;
 }
 
-#locations .flex-container {
-  margin: auto;
-  width: 1100px;
-}
-
 .location {
-  opacity: 1;
-  padding: 10px;
-  margin: 5px 20px;
+  align-items: center;
   background-color: black;
+  padding: 10px;
+  margin: 15px 40px;
   flex-basis: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  opacity: 1;
 }
 
-/* Contact Section */
+/* CONTACT SEC */
 
 #contact {
   height: 200px;
+  margin: auto;
+  padding-top: 70px;
 }
 
-/* Footer Section */
+/* FOOTER */
 
 footer {
+  margin: 20px;
   text-align: left;
-  padding-left: 20px;
 }
