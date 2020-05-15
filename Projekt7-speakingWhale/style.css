@@ -20,12 +20,21 @@ header h1 {
 
 main {
   width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  /* background-color: aliceblue; */
+  min-height: calc(100vh - 154px - 81px);
 }
 
 footer {
-  bottom: 10%;
+  text-align: center;
 }
 footer ul {
   list-style-type: none;
-  margin: 20px auto;
+  margin: 20 auto;
+  padding: 30px;
+}
+
+.translation-field {
+  visibility: hidden;
 }
