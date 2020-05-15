@@ -1,0 +1,111 @@
+body,
+html {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  /* margin: 0px;
+  padding: 0px; */
+  background-color: rgb(93, 94, 91);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 15px;
+}
+
+nav {
+  position: fixed;
+  margin: 10px 20px;
+  display: flex;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(158, 163, 162);
+  border-radius: 5px 5px;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: rgb(69, 73, 71);
+  text-decoration-line: overline;
+  text-decoration-color: rgb(15, 221, 94);
+  padding: 10px;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+header img {
+  width: 200px;
+  height: 200px;
+}
+
+header h1 {
+  margin: 0px;
+}
+
+.rules {
+  width: 250px;
+  height: 280px;
+  margin: 20px auto;
+  padding: 5px 25px;
+}
+
+.business {
+  box-sizing: border-box;
+  border-style: dashed;
+  border-radius: 1px solid black;
+
+  margin: 30px auto;
+  padding: 15px 40px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+}
+.business h2 {
+  line-height: 4rem;
+  padding-right: 20px;
+}
+.business p {
+  padding-left: 10px;
+  overflow: scroll;
+}
+
+.employees {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.employees img {
+  width: 150px;
+  padding-bottom: 17px;
+}
+
+.image-film video {
+  width: 600px;
+  height: 400px;
+}
+
+footer {
+}
+
+/*__ ID SEC __*/
+
+#film {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: inline-flex;
+}
+.impressum-info li {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
