@@ -22,8 +22,21 @@ main {
   width: 90vw;
   margin: 0 auto;
   padding: 30px 20px;
-  /* background-color: aliceblue; */
   min-height: calc(100vh - 154px - 81px);
+}
+section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+button {
+  width: 7vw;
+  height: 5vh;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: aqua;
 }
 
 footer {
@@ -31,10 +44,31 @@ footer {
 }
 footer ul {
   list-style-type: none;
-  margin: 20 auto;
+  margin: 20px auto;
   padding: 30px;
 }
 
-.translation-field {
-  visibility: hidden;
+/*___ Classes ___*/
+
+section.text-input {
+  width: 55vw;
+  height: 35vh;
+}
+.text-input label {
+  margin: 0 20px;
+}
+.text-input input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+section.text-translation {
+  width: 55vw;
+  height: 25vh;
+  /* background-color: rgb(73, 225, 230); */
+  /* visibility: hidden; */
+  text-align: center;
+  overflow: scroll;
 }
